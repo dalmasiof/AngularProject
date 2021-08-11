@@ -20,6 +20,11 @@ import { ClientsComponent } from './clients/clients.component';
 import { FormsModule } from '@angular/forms';
 import { ItemCLientComponent } from './clients/item-client/item-client.component';
 
+import { NameChangesComponent } from './on-change/name-changes/name-changes.component';
+import { OnChangeComponent } from './on-change/on-change/on-change.component';
+import { InterceptingComponent } from './intercepting/intercepting.component';
+import { NameComponent } from './intercepting/name/name.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +35,10 @@ import { ItemCLientComponent } from './clients/item-client/item-client.component
     ChildComponent,
     ClientsComponent,
     ItemCLientComponent,
+    NameChangesComponent,
+    OnChangeComponent,
+    InterceptingComponent,
+    NameComponent,
     
   ],
   imports: [

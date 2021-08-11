@@ -1,0 +1,12 @@
+<mat-card>
+    <mat-card-content>
+        <section>
+            <mat-form-field>
+                <input matInput placeholder="your name" [(ngModel)]="Name">
+            </mat-form-field>
+        </section>
+        <section>
+            <app-name [Name]="Name"></app-name>
+        </section>
+    </mat-card-content>
+</mat-card>
