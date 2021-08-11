@@ -1,0 +1,26 @@
+<mat-card>
+    <mat-card-content>
+        <section>
+            <mat-form-field>
+                <input matInput placeholder="first Name" [(ngModel)]="name">
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput type="number" placeholder="age" [(ngModel)]="age">
+            </mat-form-field>
+
+            <button (click)="save()" mat-mini-fab color=primary>
+                <mat-icon>
+                    check
+                </mat-icon>
+            </button>
+        </section>
+    </mat-card-content>
+
+
+</mat-card>
+
+<app-item-client [client]="c" *ngFor="let c of clients; let i = index"
+(removeCLient)="removeFromList(i)" 
+(updateCLient)="UpdateList($event, i)">
+</app-item-client>

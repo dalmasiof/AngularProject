@@ -1,0 +1,15 @@
+<mat-card>
+    <mat-card-content>
+        <section>
+            <app-child [tittle]="tittle"
+            (outPutVal)="incBy($event)"
+            ></app-child>
+        </section>
+        <br>
+        <section>
+            <h1>
+            Value: {{value}}
+            </h1>
+        </section>
+    </mat-card-content>
+</mat-card>
