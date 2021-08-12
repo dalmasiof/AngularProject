@@ -24,6 +24,12 @@ import { NameChangesComponent } from './on-change/name-changes/name-changes.comp
 import { OnChangeComponent } from './on-change/on-change/on-change.component';
 import { InterceptingComponent } from './intercepting/intercepting.component';
 import { NameComponent } from './intercepting/name/name.component';
+import { MainLifeCycleComponent } from './LifeCycle/main-life-cycle/main-life-cycle.component';
+import { MatLineModule, MatOptionModule } from '@angular/material/core';
+import { MatSelectModule } from '@angular/material/select';
+import { MatListModule } from '@angular/material/list';
+import { MmainLifeCicleChildComponent } from './LifeCycle/mmain-life-cicle-child/mmain-life-cicle-child.component';
+
 
 @NgModule({
   declarations: [
@@ -39,6 +45,9 @@ import { NameComponent } from './intercepting/name/name.component';
     OnChangeComponent,
     InterceptingComponent,
     NameComponent,
+    MainLifeCycleComponent,
+    MmainLifeCicleChildComponent,
+
     
   ],
   imports: [
@@ -51,6 +60,14 @@ import { NameComponent } from './intercepting/name/name.component';
     MatFormFieldModule,
     FormsModule,
     MatInputModule,
+    MatOptionModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatOptionModule,
+    MatSelectModule,
+    MatLineModule,
+    MatListModule
+
     
   ]
   ,
