@@ -8,11 +8,11 @@ import { CommunicationComponentComponent } from './ComunicationCOmps/communicati
 import { InputBindingComponent } from './ComunicationCOmps/input-binding/input-binding.component';
 import { ClientComponentComponent } from './ComunicationCOmps/client-component/client-component.component';
 import { EventComponent } from './ComunicationCOmps/event/event.component';
-import{ MatCardModule} from '@angular/material/card';
-import{ MatButtonModule} from '@angular/material/button';
-import{ MatIconModule} from '@angular/material/icon';
-import{ MatFormFieldModule} from '@angular/material/form-field';
-import{ MatInputModule} from '@angular/material/input';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 
 import { ChildComponent } from './ComunicationCOmps/event/child/child.component';
@@ -28,7 +28,10 @@ import { MainLifeCycleComponent } from './LifeCycleComps/on-change/LifeCycle/mai
 import { MatLineModule, MatOptionModule } from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
 import { MatListModule } from '@angular/material/list';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MmainLifeCicleChildComponent } from './LifeCycleComps/on-change/LifeCycle/mmain-life-cicle-child/mmain-life-cicle-child.component';
+import { Module1Module } from './ServicesComps/module1/module1.module';
+import { Module2Module } from './ServicesComps/module2/module2.module';
 
 
 @NgModule({
@@ -48,7 +51,7 @@ import { MmainLifeCicleChildComponent } from './LifeCycleComps/on-change/LifeCyc
     MainLifeCycleComponent,
     MmainLifeCicleChildComponent,
 
-    
+
   ],
   imports: [
     BrowserModule,
@@ -66,9 +69,11 @@ import { MmainLifeCicleChildComponent } from './LifeCycleComps/on-change/LifeCyc
     MatOptionModule,
     MatSelectModule,
     MatLineModule,
-    MatListModule
+    MatListModule,
+    Module1Module,
+    Module2Module,
+    MatSlideToggleModule
 
-    
   ]
   ,
   providers: [],

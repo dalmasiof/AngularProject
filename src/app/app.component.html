@@ -1,2 +1,14 @@
   
-<app-communication-component ></app-communication-component>
+<!-- <app-communication-component ></app-communication-component> -->
+
+<mat-slide-toggle #toogle1>Component 1</mat-slide-toggle>
+<mat-slide-toggle #toogle2>Component 2</mat-slide-toggle>
+<mat-slide-toggle #toogle3>Component 3</mat-slide-toggle>
+<mat-slide-toggle #toogle4>Component 4</mat-slide-toggle>
+
+<app-comp1 *ngIf="toogle1.checked"></app-comp1>
+<app-comp2 *ngIf="toogle2.checked"></app-comp2>
+<app-comp3 *ngIf="toogle3.checked"></app-comp3>
+<app-comp4 *ngIf="toogle4.checked"></app-comp4>
+
+
