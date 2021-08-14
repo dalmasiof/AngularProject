@@ -32,6 +32,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MmainLifeCicleChildComponent } from './LifeCycleComps/on-change/LifeCycle/mmain-life-cicle-child/mmain-life-cicle-child.component';
 import { Module1Module } from './ServicesComps/module1/module1.module';
 import { Module2Module } from './ServicesComps/module2/module2.module';
+import { BasicObservablesComponent } from './Observables/basic-observables/basic-observables.component';
+import { AsyncObervablesComponent } from './Observables/async-obervables/async-obervables.component';
 
 
 @NgModule({
@@ -50,6 +52,8 @@ import { Module2Module } from './ServicesComps/module2/module2.module';
     NameComponent,
     MainLifeCycleComponent,
     MmainLifeCicleChildComponent,
+    BasicObservablesComponent,
+    AsyncObervablesComponent,
 
 
   ],
