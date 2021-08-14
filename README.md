@@ -1,3 +1,15 @@
+# About:
+
+This project was created to put into practice many of the modern angular dev practices like routers, observables, Input and Output components, services, lazy loading, modules and more.
+
+If you are looking for this technology and want too see some code in action, this might be a good start. I'm trying to put in as many comments as possible to make the code as simple for newbies, like i was a while ago.
+
+-- NEVER FORGET TO SEE THE OFFICIAL DOC'S ON THE LINK (https://angular.io/) --
+
+Below we have some Angular automotive reviews.
+
+Check to project to see more.
+
 # AngularProj
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
