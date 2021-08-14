@@ -1,10 +1,12 @@
 # About:
 
-This project was created to put in pratice many off the modern pratics of dev in angular like Routers, observables, input and output components, sevices, modules lazy loading and etc.
+This project was created to put into practice many of the modern angular dev practices like routers, observables, Input and Output components, services, lazy loading, modules and more.
 
-If you s looking this tecnoogy this could be nice to get started. Bellow we have some Angular auto coments.
+If you are looking for this technology, this might be a good start. I'm trying to put in as many comments as possible to make the code as simple for newbies, like i was a while ago.
 
-Check the project to see more
+Below we have some Angular automotive reviews.
+
+Check to project to see more.
 
 # AngularProj
 
