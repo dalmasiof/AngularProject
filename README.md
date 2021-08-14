@@ -1,3 +1,11 @@
+# About:
+
+This project was created to put in pratice many off the modern pratics of dev in angular like Routers, observables, input and output components, sevices, modules lazy loading and etc.
+
+If you s looking this tecnoogy this could be nice to get started. Bellow we have some Angular auto coments.
+
+Check the project to see more
+
 # AngularProj
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
