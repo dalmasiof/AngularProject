@@ -34,6 +34,8 @@ import { Module1Module } from './ServicesComps/module1/module1.module';
 import { Module2Module } from './ServicesComps/module2/module2.module';
 import { BasicObservablesComponent } from './Observables/basic-observables/basic-observables.component';
 import { AsyncObervablesComponent } from './Observables/async-obervables/async-obervables.component';
+import { SubjectsComponent } from './Observables/subjects/subjects.component';
+import { SubjectChildComponent } from './Observables/subjects/subject-child/subject-child.component';
 
 
 @NgModule({
@@ -54,6 +56,8 @@ import { AsyncObervablesComponent } from './Observables/async-obervables/async-o
     MmainLifeCicleChildComponent,
     BasicObservablesComponent,
     AsyncObervablesComponent,
+    SubjectsComponent,
+    SubjectChildComponent,
 
 
   ],
