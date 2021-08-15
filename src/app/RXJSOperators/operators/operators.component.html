@@ -1,0 +1,20 @@
+<div fxFill fxLayout="column" fxLayoutAlign="center start">
+    <button mat-raised-button color="primary" (click)="mapCLick()">Map / Operator</button>
+    <button mat-raised-button color="primary" (click)="filterCLick()">Filter / Operator</button>
+    <button mat-raised-button color="primary" (click)="tapClick()">Tap / Operator</button>
+    <button mat-raised-button color="primary" (click)="takeClick()">Take / Operator</button>
+    <button mat-raised-button color="primary" (click)="debounceTimeSeach()">DebounceTimeSearch / Operator</button>
+
+    
+</div>
+<mat-divider></mat-divider>
+<mat-form-field>
+    <mat-label>Types...</mat-label>
+        <input matInput
+        #input
+        placeholder="Type something"
+        autocomplete="off"
+        (keyup)="searchUsingDebounce(input.value)"
+        [(ngModel)]="searchInput">
+        
+</mat-form-field>

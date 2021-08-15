@@ -2,14 +2,28 @@
     <div fxFlex="20" >
         <mat-radio-group [(ngModel)]="option" fxLayout="column" fxLayoutAlign="center start">
             <mat-radio-button value="basic-creation">Basic Creation</mat-radio-button>
+            <br>
+            <mat-radio-button value="operators">Operators</mat-radio-button>
+            <br>
+            <mat-radio-button value="operatorsAsync">Operators Async</mat-radio-button>   
+            <br>
+            <mat-radio-button value="Error">Error Handling</mat-radio-button>   
+            <br>
+            <mat-radio-button value="unsubscribe">Unsubscribe</mat-radio-button>
+
             <mat-radio-button value="none">None</mat-radio-button>
 
         </mat-radio-group>
     </div>
     <div fxFlex="70" >
-        <ng-container fxLayout="column" fxLayoutAlign="center start"
+        <ng-container 
          [ngSwitch]="option">
             <app-basic-creation *ngSwitchCase="'basic-creation'" fxFill></app-basic-creation>
+            <app-operators *ngSwitchCase="'operators'" fxFill></app-operators>
+            <app-async *ngSwitchCase="'operatorsAsync'" fxFill></app-async>
+            <app-error-handling *ngSwitchCase="'Error'"></app-error-handling>
+            <app-unsubscribe *ngSwitchCase="'unsubscribe'" fxFill></app-unsubscribe>
+
         </ng-container>
     </div>
 </div>

@@ -16,6 +16,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatRadioModule } from '@angular/material/radio';
 
 
+
 import { ChildComponent } from './ComunicationCOmps/event/child/child.component';
 import { ClientsComponent } from './ComunicationCOmps/clients/clients.component';
 import { FormsModule } from '@angular/forms';
@@ -39,7 +40,15 @@ import { SubjectsComponent } from './Observables/subjects/subjects.component';
 import { SubjectChildComponent } from './Observables/subjects/subject-child/subject-child.component';
 import { RxJsComponent } from './RXJSOperators/rx-js/rx-js.component';
 import {FlexLayoutModule} from '@angular/flex-layout';
-import { BasicCreationComponent } from './RXJSOperators/basicCreation/basic-creation/basic-creation.component'
+import { BasicCreationComponent } from './RXJSOperators/basicCreation/basic-creation/basic-creation.component';
+import { OperatorsComponent } from './RXJSOperators/operators/operators.component'
+import { MatDividerModule } from '@angular/material/divider';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+
+import { AsyncComponent } from './RXJSOperators/async/async.component';
+import { ErrorHandlingComponent } from './RXJSOperators/error-handling/error-handling.component';
+import { UnsubscribeComponent } from './RXJSOperators/unsubscribe/unsubscribe.component'
+
 
 
 @NgModule({
@@ -64,6 +73,10 @@ import { BasicCreationComponent } from './RXJSOperators/basicCreation/basic-crea
     SubjectChildComponent,
     RxJsComponent,
     BasicCreationComponent,
+    OperatorsComponent,
+    AsyncComponent,
+    ErrorHandlingComponent,
+    UnsubscribeComponent,
 
 
   ],
@@ -88,8 +101,9 @@ import { BasicCreationComponent } from './RXJSOperators/basicCreation/basic-crea
     Module2Module,
     MatSlideToggleModule,
     FlexLayoutModule,
-    MatRadioModule
-    
+    MatRadioModule,
+    MatDividerModule, 
+    MatProgressBarModule
 
   ]
   ,

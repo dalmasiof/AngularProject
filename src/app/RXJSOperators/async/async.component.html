@@ -1,0 +1,21 @@
+<div fxFill fxLayout="column" fxLayoutAlign="center start">
+   <mat-card>
+       <mat-card-title>Select Options:</mat-card-title>
+       <mat-card-content>
+            <mat-selection-list>
+                <!-- async do a subscribe in obs, put async in a var to not make useless subscribes -->
+                <ng-container *ngIf="options$ | async as opts; else bar">
+                    <mat-list-option *ngFor="let o of opts">
+                        {{o}}
+                    </mat-list-option>
+                </ng-container>
+               
+            </mat-selection-list>
+       </mat-card-content>
+       <ng-template #bar>
+           <mat-progress-bar mode="indeterminate">
+
+           </mat-progress-bar>
+       </ng-template>
+   </mat-card>
+</div>

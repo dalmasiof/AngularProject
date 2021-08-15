@@ -59,7 +59,7 @@ export class BasicCreationComponent implements OnInit {
   }
 
   fromEventClick(){
-    const subromEvent= fromEvent(document,'click')//ccan select every elemnt of html
+    const subromEvent= fromEvent(document,'click')//can select every elemnt of html, lie divs,classes ids ...
     
     this.subscription.add(subromEvent.subscribe(x=>{
       console.log("CLicks event: "+x)

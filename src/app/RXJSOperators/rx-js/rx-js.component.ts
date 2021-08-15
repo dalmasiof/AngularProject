@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-rx-js',
@@ -12,5 +13,7 @@ export class RxJsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+
 
 }
