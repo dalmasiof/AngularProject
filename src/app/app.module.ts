@@ -13,6 +13,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { MatRadioModule } from '@angular/material/radio';
 
 
 import { ChildComponent } from './ComunicationCOmps/event/child/child.component';
@@ -36,6 +37,9 @@ import { BasicObservablesComponent } from './Observables/basic-observables/basic
 import { AsyncObervablesComponent } from './Observables/async-obervables/async-obervables.component';
 import { SubjectsComponent } from './Observables/subjects/subjects.component';
 import { SubjectChildComponent } from './Observables/subjects/subject-child/subject-child.component';
+import { RxJsComponent } from './RXJSOperators/rx-js/rx-js.component';
+import {FlexLayoutModule} from '@angular/flex-layout';
+import { BasicCreationComponent } from './RXJSOperators/basicCreation/basic-creation/basic-creation.component'
 
 
 @NgModule({
@@ -58,6 +62,8 @@ import { SubjectChildComponent } from './Observables/subjects/subject-child/subj
     AsyncObervablesComponent,
     SubjectsComponent,
     SubjectChildComponent,
+    RxJsComponent,
+    BasicCreationComponent,
 
 
   ],
@@ -80,7 +86,10 @@ import { SubjectChildComponent } from './Observables/subjects/subject-child/subj
     MatListModule,
     Module1Module,
     Module2Module,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    FlexLayoutModule,
+    MatRadioModule
+    
 
   ]
   ,
