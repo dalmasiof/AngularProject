@@ -44,6 +44,8 @@ import { BasicCreationComponent } from './RXJSOperators/basicCreation/basic-crea
 import { OperatorsComponent } from './RXJSOperators/operators/operators.component'
 import { MatDividerModule } from '@angular/material/divider';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+
 
 import { AsyncComponent } from './RXJSOperators/async/async.component';
 import { ErrorHandlingComponent } from './RXJSOperators/error-handling/error-handling.component';
@@ -103,7 +105,8 @@ import { UnsubscribeComponent } from './RXJSOperators/unsubscribe/unsubscribe.co
     FlexLayoutModule,
     MatRadioModule,
     MatDividerModule, 
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatProgressSpinnerModule
 
   ]
   ,
