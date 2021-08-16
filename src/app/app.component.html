@@ -1,4 +1,14 @@
-  
+<mat-toolbar fxLayout="row" fxLayoutAlign="space-between center">
+    <span routerLink="">My App</span>
+    <span></span>
+    <div fxLayoutGap="20px">
+        <a mat-raised-button routerLink="rxjs" routerLinkActive="mat-accent">RxJs</a>
+        <a mat-raised-button routerLink="Services">Services 1</a>
+        <a mat-raised-button routerLink="Services/Services2">Services 2</a>
+
+    </div>
+</mat-toolbar>
+<router-outlet></router-outlet>  
 <!-- <app-communication-component ></app-communication-component> -->
 
 <!-- <mat-slide-toggle #toogle1>Component 1</mat-slide-toggle>
@@ -14,5 +24,5 @@
 <!-- <app-basic-observables></app-basic-observables> -->
 <!-- <app-async-obervables></app-async-obervables> -->
 <!-- <app-subjects></app-subjects> -->
-<app-rx-js></app-rx-js>
+<!-- <app-rx-js></app-rx-js> -->
 

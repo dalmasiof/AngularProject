@@ -32,8 +32,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatListModule } from '@angular/material/list';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MmainLifeCicleChildComponent } from './LifeCycleComps/on-change/LifeCycle/mmain-life-cicle-child/mmain-life-cicle-child.component';
-import { Module1Module } from './ServicesComps/module1/module1.module';
-import { Module2Module } from './ServicesComps/module2/module2.module';
+
 import { BasicObservablesComponent } from './Observables/basic-observables/basic-observables.component';
 import { AsyncObervablesComponent } from './Observables/async-obervables/async-obervables.component';
 import { SubjectsComponent } from './Observables/subjects/subjects.component';
@@ -45,11 +44,14 @@ import { OperatorsComponent } from './RXJSOperators/operators/operators.componen
 import { MatDividerModule } from '@angular/material/divider';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatToolbarModule } from '@angular/material/toolbar';
+
 
 
 import { AsyncComponent } from './RXJSOperators/async/async.component';
 import { ErrorHandlingComponent } from './RXJSOperators/error-handling/error-handling.component';
-import { UnsubscribeComponent } from './RXJSOperators/unsubscribe/unsubscribe.component'
+import { UnsubscribeComponent } from './RXJSOperators/unsubscribe/unsubscribe.component';
+import { NotFoundComponent } from './pageNotFOund/not-found/not-found.component'
 
 
 
@@ -79,6 +81,7 @@ import { UnsubscribeComponent } from './RXJSOperators/unsubscribe/unsubscribe.co
     AsyncComponent,
     ErrorHandlingComponent,
     UnsubscribeComponent,
+    NotFoundComponent,
 
 
   ],
@@ -99,14 +102,15 @@ import { UnsubscribeComponent } from './RXJSOperators/unsubscribe/unsubscribe.co
     MatSelectModule,
     MatLineModule,
     MatListModule,
-    Module1Module,
-    Module2Module,
+    // Module1Module,
+    // Module2Module,
     MatSlideToggleModule,
     FlexLayoutModule,
     MatRadioModule,
     MatDividerModule, 
     MatProgressBarModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatToolbarModule
 
   ]
   ,
