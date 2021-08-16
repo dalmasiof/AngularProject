@@ -29,6 +29,31 @@
         <span>Service 2</span>
       </button>
     </mat-menu>
+
+    <button  mat-raised-button [matMenuTriggerFor]="menuLife">LifeCycle</button>
+    <mat-menu #menuLife="matMenu">
+      <button  mat-menu-item routerLink="LifeCycle/Main">
+        <span>Main</span>
+      </button>
+    
+      <button  mat-menu-item routerLink="LifeCycle/OnChanges">
+        <span>OnChanges</span>
+      </button>
+    </mat-menu>
+    
+    <button  mat-raised-button [matMenuTriggerFor]="menuObs">Observables</button>
+    <mat-menu #menuObs="matMenu">
+      <button  mat-menu-item routerLink="Observables/Async">
+        <span>Async</span>
+      </button>
+    
+      <button  mat-menu-item routerLink="Observables/Basic">
+        <span>Basic</span>
+      </button>
+      <button  mat-menu-item routerLink="Observables/Subjects ">
+        <span>Subjects</span>
+      </button>
+    </mat-menu>
     <a mat-raised-button routerLink="rxjs" routerLinkActive="mat-accent">RxJs</a>
 
   </div>
