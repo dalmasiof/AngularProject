@@ -52,6 +52,7 @@ import { AsyncComponent } from './RXJSOperators/async/async.component';
 import { ErrorHandlingComponent } from './RXJSOperators/error-handling/error-handling.component';
 import { UnsubscribeComponent } from './RXJSOperators/unsubscribe/unsubscribe.component';
 import { NotFoundComponent } from './pageNotFOund/not-found/not-found.component'
+import { MatMenuModule} from '@angular/material/menu'
 
 
 
@@ -86,6 +87,7 @@ import { NotFoundComponent } from './pageNotFOund/not-found/not-found.component'
 
   ],
   imports: [
+    MatMenuModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
