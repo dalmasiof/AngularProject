@@ -21,6 +21,10 @@ const routes: Routes = [
     loadChildren: () => import('./ServicesComps/module-services/module-services.module').then(m => m.ModuleServicesModule)//Lazy loading
   },
   {
+    path: 'Forms',
+    loadChildren: () => import('./Forms/forms-Module/forms.module').then(m => m.Form_Module)//Lazy loading
+  },
+  {
     path: 'Communication', children: [
       { path: 'Input', component: InputBindingComponent },
       { path: 'Event', component: EventComponent },

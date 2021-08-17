@@ -1,0 +1,44 @@
+<div layout="column" layout-fill>
+    <div align="center" layout="row" layout-align="center center">
+
+        <mat-card class="mat-elevation-z8" flex="80" style="margin-top: 60px; width: 800px;">
+
+            <mat-card-title>New Client</mat-card-title>
+            <mat-card-subtitle>
+            </mat-card-subtitle>
+
+            <mat-card-content fxLayout="column" fxLayoutAlign="space-around stretch">
+
+                <form fxLayout="row wrap" fxLayoutAlign="space-evenly begin" [formGroup]="clientForm"
+                    (ngSubmit)="Submit()">
+                    <mat-form-field fxFlex="45">
+                        <input formControlName="firstName" matInput type="text" value="" placeholder="First Name">
+                    </mat-form-field>
+                    <mat-form-field fxFlex="45">
+                        <input formControlName="lastName" matInput type="text" value="" placeholder="Last Name">
+                    </mat-form-field>
+
+                    <div fxLayout="row wrap" fxLayoutAlign="space-evenly begin" formGroupName="Location">
+                        <mat-form-field fxFlex="45">
+                            <input formControlName="State" matInput type="text" value="" placeholder="State">
+                        </mat-form-field>
+                        <mat-form-field fxFlex="45">
+                            <input formControlName="City" matInput type="text" value="" placeholder="City">
+                        </mat-form-field>
+
+                    
+                    </div>
+
+                    <button mat-button color="primary" type="submit">
+                        <mat-icon>done</mat-icon>Submit
+                    </button>
+                </form>
+
+            </mat-card-content>
+
+            <mat-card-footer>
+            </mat-card-footer>
+        </mat-card>
+
+    </div>
+</div>

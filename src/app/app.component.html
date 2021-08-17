@@ -54,6 +54,17 @@
         <span>Subjects</span>
       </button>
     </mat-menu>
+
+    <button  mat-raised-button [matMenuTriggerFor]="menuForms">Forms</button>
+    <mat-menu #menuForms="matMenu">
+      <button  mat-menu-item routerLink="Forms/ReaciveForm">
+        <span>Reactive Form</span>
+      </button>
+      <button  mat-menu-item routerLink="Forms/FormGroup">
+        <span>Form Group</span>
+      </button>
+    
+    </mat-menu>
     <a mat-raised-button routerLink="rxjs" routerLinkActive="mat-accent">RxJs</a>
 
   </div>
