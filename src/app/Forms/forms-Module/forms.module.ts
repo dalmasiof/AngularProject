@@ -18,6 +18,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormGroupComponent } from './form-group/form-group.component';
 import { FormBuilderComponent } from './form-builder/form-builder.component';
 import { FormArrayComponent } from './form-array/form-array.component';
+import { FormValidationComponent } from './form-validation/form-validation.component';
 
 
 
@@ -33,7 +34,8 @@ import { FormArrayComponent } from './form-array/form-array.component';
     ReacTiveFormsComponent,
             FormGroupComponent,
             FormBuilderComponent,
-            FormArrayComponent
+            FormArrayComponent,
+            FormValidationComponent
   ],
   imports: [
     CommonModule,

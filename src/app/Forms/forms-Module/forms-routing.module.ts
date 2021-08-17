@@ -3,12 +3,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormArrayComponent } from './form-array/form-array.component';
 import { FormBuilderComponent } from './form-builder/form-builder.component';
 import { FormGroupComponent } from './form-group/form-group.component';
+import { FormValidationComponent } from './form-validation/form-validation.component';
 import { ReacTiveFormsComponent } from './reac-tive-forms/reac-tive-forms.component';
 
 const routes: Routes = [
   {path:"ReaciveForm",component:ReacTiveFormsComponent},
   {path:"FormBuilder",component:FormBuilderComponent},
   {path:"FormArray",component:FormArrayComponent},
+  {path:"FormValidation",component:FormValidationComponent},
   {path:"FormGroup",component:FormGroupComponent}
 ];
 
