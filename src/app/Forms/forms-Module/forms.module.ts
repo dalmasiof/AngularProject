@@ -16,6 +16,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormGroupComponent } from './form-group/form-group.component';
+import { FormBuilderComponent } from './form-builder/form-builder.component';
+import { FormArrayComponent } from './form-array/form-array.component';
 
 
 
@@ -29,7 +31,9 @@ import { FormGroupComponent } from './form-group/form-group.component';
     
   
     ReacTiveFormsComponent,
-            FormGroupComponent
+            FormGroupComponent,
+            FormBuilderComponent,
+            FormArrayComponent
   ],
   imports: [
     CommonModule,
